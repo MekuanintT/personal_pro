@@ -50,10 +50,28 @@
   <u>issses</u>.
 </p>
 <form action="">
-  <label for="name">Email:<input required type="email" id="email" placeholder="example@gmail.com"
-    minlength="4"
-    maxlength="100"></label>
+  <label for="name">Email Address (Required field):</label>
 </form>
+<input required type="email" id="email" placeholder="example@gmail.com"
+    minlength="4"
+    maxlength="100">
+    <form method="POST" action="https://hotel-feedback.freecodecamp.org">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="full-name">Name (required):</label>
+          <input type="text" id="full-name" name="name" placeholder="e.g., John Doe" required size="20">
+
+          <label for="email">Email address (required):</label>
+          <input
+            placeholder="example@email.com"
+            required
+            id="email"
+            type="email"
+            name="email"
+            size="20"
+          />
+          <label for="age">Age (optional):</label>
+          <input type="number" name="age" id="age" min="3" max="100" />
 <button>Submite</button></section>
 <script src="index.js"></script
     </section>
