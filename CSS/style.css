@@ -1,0 +1,18 @@
+header {
+    background-color: aqua;
+}
+header{position: fixed;}
+
+body {
+    background-color: burlywood;
+}
+
+#gallery {
+    display: flex;
+}
+
+#spiderman,#spiderwoman,#spiderforest {width: 45%;}
+#spiderman img,#spiderwoman img,#spiderforest img {width: 100%; height: auto;}
+img{max-width: 100%;}
+*{padding: 0%;
+,margin: 0%;}
