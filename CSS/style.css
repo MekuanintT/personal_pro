@@ -1,11 +1,8 @@
-header {
-    background-color: rgb(119, 168, 168);
-}
 .good {}
 
 
 body {
-    background-color: burlywood;
+    background-color: rgb(255, 255, 255);
 }
 
 #gallery {
@@ -14,20 +11,29 @@ body {
 
 #spiderman,
 #spiderwoman,
-#spiderforest,#missing {
+#spiderforest,
+#missing {
     width: 45%;
 }
 
 #spiderman img,
 #spiderwoman img,
-#spiderforest img,#missing div {
+#spiderforest img,
+#missing div {
     width: 100%;
     height: auto;
 }
-#missing {background-color: cornflowerblue;}
-#olmo {text-align: center;
+
+#missing {
+    background-color: cornflowerblue;
+    border: 5px solid blue;
+}
+#missing { background-image: url("../Image\2.jpeg");}
+
+#olmo {
+    text-align: center;
     font-size: 50px;
-    margin-top: 30px;
+    margin-top: 300px;
 }
 
 img {
@@ -43,15 +49,59 @@ img {
 header {
     margin-bottom: 80px;
 }
-#gallery {margin-bottom: 80px;
-margin-right: 25px;
-margin-left: 25px;}
-.good { popadding-top: 25px;
-padding-bottom: 20px;
-color: aliceblue;
-text-align: center;
-text-size-adjust: 300px}
-.aswell {text-align: center;
-position: relative;}
-#abebe{
-position: fixed;}
+
+#gallery {
+    margin: bottom 0px;
+    padding: bottom 0px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.good {
+    popadding-top: 25px;
+    padding-bottom: 20px;
+    color: ;
+    text-align: center;
+    text-size-adjust: 300px
+}
+
+.aswell {
+    text-align: center;
+    position: relative;
+}
+
+#abebe {
+    position: fixed;
+}
+
+#blue {
+    color: blue;
+    margin-bottom: 0px;
+}
+
+#red {
+    color: red;
+    margin-top: 0px;
+}
+
+.mikia {
+    font-size: 25px;
+}
+
+.lante {
+    font-size: 30px;
+}
+
+.Sebeb {
+    text-align: center;
+}
+
+.minkereh {
+    font-size: 25px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+#key {
+    font-size: 25px;
+}
