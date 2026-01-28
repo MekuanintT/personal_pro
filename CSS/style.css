@@ -23,14 +23,14 @@ body {
     width: 100%;
     height: auto;
 }
+#abebe {font-family: 'playwrite gb j guides', cursive;}
 
 #missing {
-    background-color: cornflowerblue;
+    background-image: url(../Image/3.jpeg);
     border: 5px solid blue;
 }
-#missing { background-image: url("../Image\2.jpeg");}
 
-#olmo {
+#olmo { 
     text-align: center;
     font-size: 50px;
     margin-top: 300px;
