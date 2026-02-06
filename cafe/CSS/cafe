@@ -89,3 +89,34 @@ a:hover {
 a:active {
   color: brown;
 }
+body{
+  background-color:gold
+}
+.blog-post-card{background-color:white;
+border-radius:15px;
+width:100%;
+text-align:center;}
+.post-img{border-radius:10px;
+margin-left:auto;
+margin-right:auto;
+width:100%;
+border-bottom:5px solid green}
+.post-content{
+  padding:10px;
+}
+.post-title{color:white;
+margin:2px;
+}
+.post-excerpt{color:brown;
+margin:3px;}
+.read-more{color:black;
+background-color:blue;
+margin:5px;
+padding:3px;
+text-decoration:none;
+
+width:20%
+}
+.read-more{border-radius:5px;}
+.read-more{display: inline-block;}
+.read-more:hover{background-color:white}
