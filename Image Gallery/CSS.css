@@ -1,0 +1,76 @@
+*{margin: 0px;
+padding: 0px;}
+
+body {
+    background-color:white;
+}
+.main{ background-color: silver;}
+.container {
+    background-color: #8fd3f4;
+    color: white;
+}
+.ee{ margin-bottom: 300px;}
+.dd{margin-top: 40px 30px;
+    padding: 0px 20px;
+    border-color: aquamarine;
+    border-bottom: 4px solid aquamarine;}
+.container a{
+    color: white;
+    text-decoration: none;
+
+}
+.mt{ display: flex;
+    justify-content: space-between;
+margin: 0px 40px;
+    padding: 0px 30px;
+list-style-type: none;}
+    .bahirdar{
+        color: cadetblue;
+        text-align: center;
+    }
+.image{
+    display: inline-block;
+    margin: 0px 30px;
+    padding: 0px 20px;
+}
+.image img{gap: 50px;}
+.image img{
+    width: 600px;
+    height: 350px;
+}
+.nt{ display: flex;
+    justify-content: center;
+gap: 10px;
+margin-top: 20px;
+list-style-type: none;}
+.ab {text-decoration: none;
+    border: 2px solid cadetblue;
+    padding: 5px ;
+    border-radius: 5px;
+    
+}
+.ab:hover{
+    background-color: cornflowerblue;
+    color: white;
+    
+}
+#ac{padding:5px 20px}
+#cc{
+    margin-top: 40px;
+    border-color: aquamarine;
+    border-bottom: 4px solid aquamarine;
+}
+.bb{margin: 10px 30px;
+    padding: 0px 20px;}
+    .bahirdara{margin-top:-300px;
+        padding-bottom:50px;
+        padding-top: 20px;
+    margin-left: 500px;}
+    #gg{width: 200px;
+    background-color: #8fd3f4;
+padding-top: 0px;
+margin-top: 0px;
+margin-left: 30px;
+padding-left: 20px;
+margin-bottom: 0px;
+padding-bottom: 0px;}

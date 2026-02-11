@@ -1,0 +1,30 @@
+<!doctype>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" intial-scale="1.0">
+    <title>apple</title>
+    <link rel="stylesheet" href="<!doctype>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" intial-scale="1.0">
+    <title>Image Gallery
+    </title>
+    <link rel="stylesheet" href="C:\Users\Mehari\Desktop\personal_pro\apple\CSS\css.css">
+</head>
+<body>
+    <header>
+        <div class="selamta">
+            <h1>WELLCOME TO THE BUITY </h1>
+        </div>
+    </header>
+    <section class ="main">
+        <div class="intro">
+            <h1> Wellcome to Bahir Dar<br>
+            Where the Blue Nile Begins</h1>
+        </div>
+    </section>
+</body>
