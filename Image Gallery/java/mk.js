@@ -156,7 +156,7 @@ function pages(start,end){
 pages(10,1)
 
 function passchecker(arr){
-    for(i=0; i<arr.length;i++){
+    for(i=0; i<=arr.length;i++){
         if(arr[i]>=50){console.log("student "+i+" passed with "+arr[i]+" score");} 
         else{console.log("student "+i+" failed with "+arr[i]+" score");}
     }
@@ -165,15 +165,3 @@ function passchecker(arr){
 passchecker([20,23,32,34,43,45,65,56,51,50,78,100,98,95])
 
 reasult=0
-function sums(arr){
-    for(i=0;i<arr.length;i++){
-   if(isNaN(arr[i])) {console.log("please insert anumber")}
-         else{if(i<0){console.log("please insert a positive number")
-    } }
-    
-    reasult =0+i;
-
-    }
-}
-   
-sums ([1,-2,3,3,0,d,37357])

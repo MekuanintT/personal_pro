@@ -74,3 +74,13 @@ margin-left: 30px;
 padding-left: 20px;
 margin-bottom: 0px;
 padding-bottom: 0px;}
+
+.blue{ background-color: blue;
+    color: rgb(255, 0, 34);
+    text-align: center;
+    padding: 20px 0px;}
+    
+.red{ background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;}    
