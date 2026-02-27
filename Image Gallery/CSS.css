@@ -79,8 +79,15 @@ padding-bottom: 0px;}
     color: rgb(255, 0, 34);
     text-align: center;
     padding: 20px 0px;}
-    
+
 .red{ background-color: red;
-    color: white;
+    color: purple;
     text-align: center;
-    padding: 20px 0px;}    
+    padding: 20px 0px;}   
+    .three{ display: flex;
+        justify-content: center;
+        gap: 20px;
+        background-color: black;
+        color: white;
+        margin-top: 20px;
+        list-style-type: none;} 
