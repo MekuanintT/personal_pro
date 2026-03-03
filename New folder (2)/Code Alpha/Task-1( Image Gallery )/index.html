@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div id="logo"> <img class="logo" src="Image/m/Logo.jpg" alt=""></div>
+
+    <div class="filter-buttons">
+        <button class="all" onclick="filterImages('all')"><img class="bb" src="Image/m/Button-1.jpg" alt="All"></button>
+        <button class="car" onclick="filterImages('car')"><img class="bb" src="Image/m/Button-2.jpg" alt="Car"></button>
+        <button class="motorcycle" onclick="filterImages('motorcycle')"><img class="bb" src="Image/m/Button-3.jpg"
+                alt="Motorcycles"></button>
+    </div>
+
+    <div class="gallery" id="all">
+        <img src="Image/m/Car-1.jpg" class="gallery-item nature car"
+            alt="BMW 7 Series ">
+        <img src="Image/m/Car-2.png" class="gallery-item nature car" alt="BMW i7 M70">
+        <img src="Image/m/Car-3.jpg" class="gallery-item city car"
+            alt="BMW M model Car">
+        <img src="Image/m/Car-4.jpg" class="gallery-item city car" alt="City scene">
+        <img src="Image/m/Car-5.webp" class="gallery-item city car" alt="City scene">
+        <img src="Image/m/Car-6.jpg" class="gallery-item city car" alt="City scene">
+        <img src="Image/m/Car-7.jpg" class="gallery-item city car" alt="City scene">
+        <img src="Image/m/Car-8.jpg" class="gallery-item city car" alt="City scene">
+        <img src="Image/m/Car-9.jpg" class="gallery-item city car" alt="City scene">
+        <img src="Image/m/Car-10.jpg" class="gallery-item city car" alt="City scene">
+        <img src="Image/m/Car-11.jpg" class="gallery-item city car" alt="City scene">
+        <img src="Image/m/Car-12.jpg" class="gallery-item city car" alt="City scene">
+
+
+        
+        <img src="Image/m/motor 1.jpg" class="gallery-item city motorcycle">
+        <img src="Image/m/motor 2.jpg" class="gallery-item city motorcycle">
+        <img src="Image/m/motor 3.jpg" class="gallery-item city motorcycle">
+        <img src="Image/m/motor 4.jpg" class="gallery-item city motorcycle">
+        <img src="Image/m/motor 5.jpg" class="gallery-item city motorcycle">
+        <img src="Image/m/motor 6.jpg" class="gallery-item city motorcycle">
+        <img src="Image/m/motor 7.jpg" class="gallery-item city motorcycle">
+        <img src="Image/m/motor 8.jpg" class="gallery-item city motorcycle">
+        <img src="Image/m/motor 9.jpg" class="gallery-item city motorcycle">
+        <img src="Image/m/motor 10.jpg" class="gallery-item city motorcycle">
+        <img src="Image/m/motor 11.jpg" class="gallery-item city motorcycle">
+        <img src="Image/m/motor 12.jpg" class="gallery-item city motorcycle">
+
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" id="lightbox-img">
+        <div class="navigation">
+            <button id="prev" tabindex="0" aria-label="Previous image">Prev</button>
+            <button id="next" tabindex="0" aria-label="Next image">Next</button>
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>

@@ -36,7 +36,7 @@ button:hover{
     color: rgb(2, 2, 73);
     cursor: pointer;
 }
-#em{
+.em{
     color: red;
     font-size: 12px;
     margin-top: -5px;

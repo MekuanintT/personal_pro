@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #27293d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.player {
+    background: #fff;
+    padding: 25px;
+    width: 350px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+h2 {
+    margin: 10px 0 5px;
+}
+
+.controls button {
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #4CAF50;
+    color: white;
+}
+
+.controls button:hover {
+    background: #45a049;
+}
+
+.progress-container {
+    width: 100%;
+    height: 6px;
+    background: #ddd;
+    border-radius: 5px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.progress {
+    height: 100%;
+    width: 0%;
+    background: #4CAF50;
+    border-radius: 5px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.volume-container {
+    margin-top: 15px;
+}
+
+#playlist {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    text-align: left;
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+#playlist li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+#playlist li:hover {
+    background: #eee;
+}
+
+.active {
+    background: #4CAF50;
+    color: white;
+}
