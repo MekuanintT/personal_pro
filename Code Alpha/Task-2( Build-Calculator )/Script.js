@@ -35,7 +35,6 @@ buttons.forEach(button => {
 
 });
 
-
 document.addEventListener("keydown", (event) => {
 
     if(event.key >= 0 && event.key <= 9){
