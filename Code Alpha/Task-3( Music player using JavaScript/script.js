@@ -31,7 +31,6 @@ let songs = [
 
 let songIndex = 0;
 
-// Load song
 function loadSong(song) {
     title.innerText = song.title;
     artist.innerText = song.artist;
@@ -40,7 +39,6 @@ function loadSong(song) {
 
 loadSong(songs[songIndex]);
 
-// Play / Pause
 playBtn.addEventListener("click", () => {
     if (audio.paused) {
         audio.play();
@@ -51,7 +49,6 @@ playBtn.addEventListener("click", () => {
     }
 });
 
-// Next
 nextBtn.addEventListener("click", () => {
     songIndex++;
     if (songIndex > songs.length - 1) songIndex = 0;
@@ -60,7 +57,6 @@ nextBtn.addEventListener("click", () => {
     playBtn.innerText = "⏸️";
 });
 
-// Previous
 prevBtn.addEventListener("click", () => {
     songIndex--;
     if (songIndex < 0) songIndex = songs.length - 1;
@@ -69,18 +65,15 @@ prevBtn.addEventListener("click", () => {
     playBtn.innerText = "⏸️";
 });
 
-// Update Progress
 audio.addEventListener("timeupdate", () => {
     const { currentTime, duration } = audio;
     const percent = (currentTime / duration) * 100;
     progress.style.width = percent + "%";
 
-    // Time
     currentTimeEl.innerText = formatTime(currentTime);
     durationEl.innerText = formatTime(duration);
 });
 
-// Click progress bar
 progressContainer.addEventListener("click", (e) => {
     const width = progressContainer.clientWidth;
     const clickX = e.offsetX;
@@ -89,7 +82,6 @@ progressContainer.addEventListener("click", (e) => {
     audio.currentTime = (clickX / width) * duration;
 });
 
-// Format time
 function formatTime(time) {
     if (isNaN(time)) return "0:00";
     const minutes = Math.floor(time / 60);
@@ -98,17 +90,14 @@ function formatTime(time) {
 }
 
 
-// Volume control
 volume.addEventListener("input", () => {
     audio.volume = volume.value;
 });
 
-// Autoplay next song
 audio.addEventListener("ended", () => {
     nextBtn.click();
 });
 
-// Playlist
 function createPlaylist() {
     songs.forEach((song, index) => {
         const li = document.createElement("li");
