@@ -6,8 +6,8 @@ console.log("It will be nice to have some fruit to eat.");
 
 shoppingList.push("Apples");
 
-function getShoppingListMsg(shoppingList) {
-  return "Current Shopping List: "+shoppingList;
+function getShoppingListMsg(arr) {
+  return "Current Shopping List: "+ shoppingLIst; 
 }
 
-consol.log(getShoppingListMsg(shoppingList));
+consol.log(shoppingList);
